@@ -9,9 +9,8 @@ import {
   Stack,
   Tag,
 } from "@chakra-ui/react";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import { useEffect } from "react/cjs/react.development";
 import Header from "./Header";
 import axios from "axios";
 
