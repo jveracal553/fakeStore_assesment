@@ -1,6 +1,5 @@
-import { useState, useEffect } from "react";
 import Store from "./components/Store";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Product from "./components/Product";
 import Navbar from "./components/Navbar";
 import About from "./components/About";

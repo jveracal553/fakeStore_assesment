@@ -1,12 +1,8 @@
 import {
   Box,
-  Button,
   Center,
-  Flex,
-  GridItem,
   Heading,
   Image,
-  Input,
   SimpleGrid,
   Spacer,
   Spinner,
