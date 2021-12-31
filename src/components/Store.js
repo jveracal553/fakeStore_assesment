@@ -106,14 +106,7 @@ function Store() {
         </Center>
       ) : (
         <Box p={2}>
-          <SimpleGrid
-            columns={4}
-            spacing={4}
-            mt={4}
-            // ml={276}
-            // mr={276}
-            columns={{ base: 1, md: 5 }}
-          >
+          <SimpleGrid columns={{ base: 1, md: 5 }} spacing={4} mt={4}>
             {storeItem.map((item) => {
               return <StoreItem key={item.id} product={item} />;
             })}
