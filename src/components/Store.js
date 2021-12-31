@@ -80,7 +80,7 @@ const StoreItem = ({ product }) => {
   );
 };
 
-function Store({}) {
+function Store() {
   const [storeItem, setStoreItem] = useState([]);
   const [loading, setLoading] = useState(true);
 

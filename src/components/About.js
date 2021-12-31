@@ -12,7 +12,7 @@ import {
 } from "@chakra-ui/react";
 import Header from "./Header";
 
-function ProductCard({}) {
+function About() {
   return (
     <Box>
       <Header title="About" />
@@ -83,4 +83,4 @@ function ProductCard({}) {
   );
 }
 
-export default ProductCard;
+export default About;
